@@ -13,13 +13,12 @@ document.addEventListener("DOMContentLoaded", () => {
         })
       }
     })
-  })
   
-  // Initialize Lucide icons
-  const lucide = window.lucide // Assuming lucide is available globally
-  if (lucide) {
-    lucide.createIcons()
-  }
+    // Initialize Lucide icons
+    if (window.lucide) {
+      window.lucide.createIcons()
+    }
+  })
   
   // Tab functionality
   function showTab(tabName) {
