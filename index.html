@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kofi Quansah - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/lucide/0.263.1/lucide.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <a href="#" class="logo">
+                KOFI <span class="logo-accent">QUANSAH</span>
+            </a>
+            <nav class="nav">
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </nav>
+            <button class="resume-btn" onclick="downloadResume()">
+                <i data-lucide="download"></i>
+                Resume
+            </button>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <div class="badge">Software Developer & Game Designer</div>
+                    <h1 class="hero-title">Crafting Immersive Digital Experiences</h1>
+                    <p class="hero-description">
+                        Software Developer at Redfin with a passion for game development. I create engaging games and scalable
+                        software solutions that blend innovative technology with creative design.
+                    </p>
+                    <div class="hero-buttons">
+                        <button class="btn-primary">
+                            View My Work <i data-lucide="arrow-right"></i>
+                        </button>
+                        <button class="btn-secondary">Get In Touch</button>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://github.com/kofi1123" target="_blank" rel="noopener noreferrer">
+                            <i data-lucide="github"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/kofi-quansah-a303111b0/" target="_blank" rel="noopener noreferrer">
+                            <i data-lucide="linkedin"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="image-glow"></div>
+                    <img src="images/kofi-portrait.png" alt="Kofi Quansah portrait" class="portrait">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Projects -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-header">
+                <div class="badge">Portfolio</div>
+                <h2 class="section-title">Featured Projects</h2>
+                <p class="section-description">
+                    A selection of my best game development and software engineering work
+                </p>
+            </div>
+            <div class="projects-grid">
+                <!-- First row - 3 projects -->
+                <div class="projects-row">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="images/antimony.png" alt="Antimony">
+                            <div class="image-overlay"></div>
+                        </div>
+                        <div class="project-content">
+                            <div class="project-header">
+                                <h3>Antimony</h3>
+                                <a href="https://sevenstudios.itch.io/antimony" target="_blank" rel="noopener noreferrer">
+                                    <i data-lucide="arrow-up-right"></i>
+                                </a>
+                            </div>
+                            <p>In this narrative point-and-click adventure, begin to uncover the mystery behind your missing memories with the help of a fascinating cast of characters.</p>
+                            <div class="project-tags">
+                                <span class="tag">Unity</span>
+                                <span class="tag">Ink</span>
+                                <span class="tag">Mystery</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="images/heart-of-abyss.png" alt="Heart Of The Abyss">
+                            <div class="image-overlay"></div>
+                        </div>
+                        <div class="project-content">
+                            <div class="project-header">
+                                <h3>Heart Of The Abyss</h3>
+                                <a href="https://sammiemac.itch.io/heart-of-the-abyss" target="_blank" rel="noopener noreferrer">
+                                    <i data-lucide="arrow-up-right"></i>
+                                </a>
+                            </div>
+                            <p>A deep sea diver explores the abyss in search for something dear to him. Made as a part of 2022 ArtCenter Game Jam.</p>
+                            <div class="project-tags">
+                                <span class="tag">Godot</span>
+                                <span class="tag">Python</span>
+                                <span class="tag">Puzzle</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="images/sol-luna.png" alt="Sol & Luna">
+                            <div class="image-overlay"></div>
+                        </div>
+                        <div class="project-content">
+                            <div class="project-header">
+                                <h3>Sol & Luna</h3>
+                                <a href="https://sammiemac.itch.io/sol-and-luna" target="_blank" rel="noopener noreferrer">
+                                    <i data-lucide="arrow-up-right"></i>
+                                </a>
+                            </div>
+                            <p>Help Sol and Luna get back together and escape the tower through this local co-op platformer game!</p>
+                            <div class="project-tags">
+                                <span class="tag">Godot</span>
+                                <span class="tag">2D</span>
+                                <span class="tag">Platformer</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Second row - 2 projects centered -->
+                <div class="projects-row-centered">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="images/defragmentation.png" alt="Defragmentation">
+                            <div class="image-overlay"></div>
+                        </div>
+                        <div class="project-content">
+                            <div class="project-header">
+                                <h3>Defragmentation</h3>
+                                <a href="https://kofi1123.itch.io/defragmentation" target="_blank" rel="noopener noreferrer">
+                                    <i data-lucide="arrow-up-right"></i>
+                                </a>
+                            </div>
+                            <p>Find a way to escape as you journey from level to level after losing most of your body. Collect the missing pieces and unlock doors to new areas.</p>
+                            <div class="project-tags">
+                                <span class="tag">Phaser</span>
+                                <span class="tag">JavaScript</span>
+                                <span class="tag">Platformer</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="images/on-track.png" alt="On Track!">
+                            <div class="image-overlay"></div>
+                        </div>
+                        <div class="project-content">
+                            <div class="project-header">
+                                <h3>On Track!</h3>
+                                <a href="https://kofi1123.itch.io/on-track" target="_blank" rel="noopener noreferrer">
+                                    <i data-lucide="arrow-up-right"></i>
+                                </a>
+                            </div>
+                            <p>A Piet Mondrian-inspired standstill endless runner focused on dodging incoming paint obstructions and collecting coins to increase your score!</p>
+                            <div class="project-tags">
+                                <span class="tag">Phaser</span>
+                                <span class="tag">JavaScript</span>
+                                <span class="tag">Endless Runner</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <div class="section-header">
+                <div class="badge">Expertise</div>
+                <h2 class="section-title">Skills & Technologies</h2>
+                <p class="section-description">
+                    The tools and technologies I use to build software and create games
+                </p>
+            </div>
+            <div class="skills-tabs">
+                <div class="tab-buttons">
+                    <button class="tab-button active" onclick="showTab('programming')">Programming</button>
+                    <button class="tab-button" onclick="showTab('engines')">Game Engines</button>
+                    <button class="tab-button" onclick="showTab('other')">Other Skills</button>
+                </div>
+                <div class="tab-content">
+                    <div id="programming" class="tab-panel active">
+                        <div class="skills-grid">
+                            <div class="skill-card">
+                                <div class="skill-header">
+                                    <h3>C#</h3>
+                                    <span>95%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 95%"></div>
+                                </div>
+                                <p>Primary language for Unity development and enterprise applications.</p>
+                            </div>
+                            <div class="skill-card">
+                                <div class="skill-header">
+                                    <h3>Python</h3>
+                                    <span>85%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 85%"></div>
+                                </div>
+                                <p>Used for automation, data analysis, and backend development.</p>
+                            </div>
+                            <div class="skill-card">
+                                <div class="skill-header">
+                                    <h3>Java</h3>
+                                    <span>80%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 80%"></div>
+                                </div>
+                                <p>Object-oriented programming and enterprise solutions.</p>
+                            </div>
+                            <div class="skill-card">
+                                <div class="skill-header">
+                                    <h3>C++</h3>
+                                    <span>75%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 75%"></div>
+                                </div>
+                                <p>System programming and performance-critical applications.</p>
+                            </div>
+                            <div class="skill-card">
+                                <div class="skill-header">
+                                    <h3>C</h3>
+                                    <span>70%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 70%"></div>
+                                </div>
+                                <p>Low-level programming and system development.</p>
+                            </div>
+                            <div class="skill-card">
+                                <div class="skill-header">
+                                    <h3>Ruby</h3>
+                                    <span>65%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 65%"></div>
+                                </div>
+                                <p>Web development and scripting automation.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="engines" class="tab-panel">
+                        <div class="skills-grid">
+                            <div class="skill-card">
+                                <div class="skill-header">
+                                    <h3>Unity</h3>
+                                    <span>90%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 90%"></div>
+                                </div>
+                                <p>Expert in Unity development with experience in 2D, 3D, and VR projects.</p>
+                            </div>
+                            <div class="skill-card">
+                                <div class="skill-header">
+                                    <h3>Phaser</h3>
+                                    <span>70%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 70%"></div>
+                                </div>
+                                <p>JavaScript game framework for creating HTML5 games and interactive experiences.</p>
+                            </div>
+                            <div class="skill-card">
+                                <div class="skill-header">
+                                    <h3>Godot</h3>
+                                    <span>65%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 65%"></div>
+                                </div>
+                                <p>Open-source game engine for 2D and 3D game development.</p>
+                            </div>
+                            <div class="skill-card">
+                                <div class="skill-header">
+                                    <h3>Unreal Engine</h3>
+                                    <span>45%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 45%"></div>
+                                </div>
+                                <p>Proficient in Unreal Engine with focus on Blueprint visual scripting.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="other" class="tab-panel">
+                        <div class="skills-grid">
+                            <div class="skill-card">
+                                <div class="skill-header">
+                                    <h3>Git</h3>
+                                    <span>90%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 90%"></div>
+                                </div>
+                                <p>Version control and collaborative development workflows.</p>
+                            </div>
+                            <div class="skill-card">
+                                <div class="skill-header">
+                                    <h3>MySQL</h3>
+                                    <span>85%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 85%"></div>
+                                </div>
+                                <p>Database design, optimization, and management.</p>
+                            </div>
+                            <div class="skill-card">
+                                <div class="skill-header">
+                                    <h3>AWS Lambda</h3>
+                                    <span>80%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 80%"></div>
+                                </div>
+                                <p>Serverless computing and cloud infrastructure.</p>
+                            </div>
+                            <div class="skill-card">
+                                <div class="skill-header">
+                                    <h3>Game Design</h3>
+                                    <span>85%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 85%"></div>
+                                </div>
+                                <p>Mechanics design, balancing, and player experience.</p>
+                            </div>
+                            <div class="skill-card">
+                                <div class="skill-header">
+                                    <h3>Project Management</h3>
+                                    <span>75%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 75%"></div>
+                                </div>
+                                <p>Leading development teams and managing timelines.</p>
+                            </div>
+                            <div class="skill-card">
+                                <div class="skill-header">
+                                    <h3>Audio Design</h3>
+                                    <span>35%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 35%"></div>
+                                </div>
+                                <p>Basic sound effects creation and implementation.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <div class="badge">About Me</div>
+                    <h2 class="section-title">My Development Journey</h2>
+                    <p>
+                        I'm a Software Developer at Redfin with a B.S. in Computer Science: Game Design from UC Santa Cruz (GPA:
+                        3.70). My passion lies at the intersection of software engineering and game development.
+                    </p>
+                    <p>
+                        Previously at Amazon, I implemented metrics systems, automated permission management, and developed
+                        scalable solutions that serve thousands of employees. My experience spans from robotics competitions to
+                        web applications.
+                    </p>
+                    <p>
+                        My game development journey includes creating diverse projects from narrative adventures to puzzle
+                        games, working with engines like Unity, Godot, and Phaser. I've participated in game jams, developed
+                        both 2D and 3D experiences, and explored various genres from platformers to endless runners. I believe
+                        in combining technical excellence with creative innovation to craft memorable gaming experiences.
+                    </p>
+                    <button class="btn-primary" onclick="downloadResume()">
+                        <i data-lucide="download"></i>
+                        Download Resume
+                    </button>
+                </div>
+                <div class="about-image">
+                    <div class="image-glow"></div>
+                    <img src="images/kofi-portrait.png" alt="Kofi Quansah portrait" class="portrait">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <div class="badge">Get In Touch</div>
+                <h2 class="section-title">Let's Work Together</h2>
+                <p class="section-description">
+                    Interested in collaborating or have a project in mind? Reach out!
+                </p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i data-lucide="map-pin"></i>
+                        <div>
+                            <h3>Location</h3>
+                            <p>Seattle, Washington</p>
+                            <p>Available for remote work worldwide</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i data-lucide="at-sign"></i>
+                        <div>
+                            <h3>Email</h3>
+                            <p>kofiquansah1123@gmail.com</p>
+                            <p>Usually responds within 24 hours</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i data-lucide="phone"></i>
+                        <div>
+                            <h3>Phone</h3>
+                            <p>909-217-4176</p>
+                            <p>Available for calls during business hours</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i data-lucide="message-square"></i>
+                        <div>
+                            <h3>Professional Networks</h3>
+                            <p>Connect with me on LinkedIn</p>
+                            <p>Software engineering and game development</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-card">
+                    <h3>Looking for a developer?</h3>
+                    <p>
+                        I'm currently working at Redfin but open to discussing exciting opportunities in game development,
+                        software engineering, or collaborative projects.
+                    </p>
+                    <button class="btn-primary">Let's Connect</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Kofi Quansah. All rights reserved.</p>
+            <div class="social-links">
+                <a href="https://github.com/kofi1123" target="_blank" rel="noopener noreferrer">
+                    <i data-lucide="github"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/kofi-quansah-a303111b0/" target="_blank" rel="noopener noreferrer">
+                    <i data-lucide="linkedin"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
